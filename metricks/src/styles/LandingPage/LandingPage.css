@@ -1,0 +1,133 @@
+@media (min-width: 480px) {
+  .landing-page {
+    background-image: url("Background.svg");
+    height: 811px;
+  }
+  .Logo {
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+  .metricks {
+    color: white;
+    margin-top: -5px;
+    margin-left: 115px;
+    font-size: 25px;
+    font-family: 'Work Sans';
+  }
+  .coming-soon {
+    color: white;
+    margin-top: -5px;
+    margin-left: 335px;
+    width: 760px;
+    height: 65px;
+    font-size: 55px;
+    font-weight: 1000;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .affiliate {
+    color: white;
+    margin-top: 105px;
+    margin-left: 360px;
+    width: 700px;
+    height: 65px;
+    font-size: 20px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 10px;
+    margin-left: 500px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 80px;
+    height: 85px;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  h6 {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 780px) {
+  .landing-page {
+    background-image: url("Background.svg");
+    height: 651px;
+  }
+  .Logo {
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+  .metricks {
+    color: white;
+    margin-top: -5px;
+    margin-left: 115px;
+    font-size: 25px;
+    font-family: 'Work Sans';
+  }
+  .coming-soon {
+    color: white;
+    margin-top: -5px;
+    margin-left: 35px;
+    width: 260px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .affiliate {
+    color: white;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 60px;
+    height: 85px;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  h6 {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=LandingPage.css.map */
