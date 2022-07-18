@@ -24,7 +24,7 @@ const Navbar = () => {
                  variant="contained"
                  style={{
                     marginTop: "5px", 
-                    marginLeft:"5px",
+                    marginLeft:"15px",
                     position:'absolute', 
                     width: '290px',
                     height:'48px',

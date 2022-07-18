@@ -5,6 +5,7 @@ import { Box, TextField } from '@mui/material';
 import DesktopForm from '../components/DesktopForm';
 import MobileForm from '../components/MobileForm';
 import Logo from '../assets/Logo.png';
+import Navbar from './Navbar/Navbar';
 
 
 
@@ -14,6 +15,7 @@ const LandingPage = () => {
   
     return (
         <section className='landing-page'>
+           <Navbar />
            <div className='inner-details'>
             <img src={Logo} alt='Logo' className='Logo'/>
             <p className='metricks'>METRICKS</p>
