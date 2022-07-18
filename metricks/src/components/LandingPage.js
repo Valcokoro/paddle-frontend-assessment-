@@ -4,6 +4,7 @@ import { alpha, styled } from '@mui/material/styles';
 import { Box, TextField } from '@mui/material';
 import DesktopForm from '../components/DesktopForm';
 import MobileForm from '../components/MobileForm';
+import AnimatedPage from './AnimatedPage';
 import Logo from '../assets/Logo.png';
 import Navbar from './Navbar/Navbar';
 
@@ -14,6 +15,7 @@ import Navbar from './Navbar/Navbar';
 const LandingPage = () => {
   
     return (
+       <AnimatedPage>
         <section className='landing-page'>
            <Navbar />
            <div className='inner-details'>
@@ -39,6 +41,7 @@ const LandingPage = () => {
                {window.innerWidth < 780 ? <MobileForm/> : <DesktopForm />}
               </div>
           </section>
+        </AnimatedPage>
     )
 }
 

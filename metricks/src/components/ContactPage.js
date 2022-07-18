@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/ContactPage/ContactPage.css';
+import AnimatedPage from './AnimatedPage';
 import arrow from '../assets/arrow.svg';
 
 
 
 const ContactPage = () => {
     return (
+       <AnimatedPage>
         <section className='contact-page'>
           <div className='contactpage-detail'>
             <button className='home-btn'>
@@ -33,6 +35,7 @@ const ContactPage = () => {
             </form>
           </div>
         </section>
+      </AnimatedPage>
     )
 }
 
