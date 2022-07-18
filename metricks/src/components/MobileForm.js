@@ -87,12 +87,12 @@ const MobileForm = () => {
       <CssTextFieldMobile
         label="First Name." 
         id="custom-css-standard-input1" 
-        style={{marginTop: "20px", marginLeft:"40px", position:'absolute', width: '120px'}}
+        style={{marginTop: "20px", marginLeft:"40px", position:'absolute', width: '140px'}}
     />
       <CssTextFieldMobile
        label="Last Name." 
        id="custom-css-standard-input2" 
-       style={{marginTop: "20px", marginLeft:"170px",position:'absolute', width: '120px'}}
+       style={{marginTop: "20px", marginLeft:"190px",position:'absolute', width: '140px'}}
     />
     <CssTextField
         label="Enter your email address..." 
@@ -103,7 +103,7 @@ const MobileForm = () => {
             marginTop: "100px", 
             marginLeft:"20px",
             position:'absolute', 
-            width: '280px',
+            width: '320px',
             backgroundColor: 'white',
             borderRadius: '200px',
         }}
@@ -112,7 +112,7 @@ const MobileForm = () => {
          variant="contained"
          style={{
             marginTop: "170px", 
-            marginLeft:"80px",
+            marginLeft:"110px",
             position:'absolute', 
             width: '150px',
             height:'53px',
