@@ -92,7 +92,7 @@ const MobileForm = () => {
       <CssTextFieldMobile
        label="Last Name." 
        id="custom-css-standard-input2" 
-       style={{marginTop: "20px", marginLeft:"190px",position:'absolute', width: '140px'}}
+       style={{marginTop: "20px", marginLeft:"205px",position:'absolute', width: '140px'}}
     />
     <CssTextField
         label="Enter your email address..." 
@@ -103,7 +103,7 @@ const MobileForm = () => {
             marginTop: "100px", 
             marginLeft:"20px",
             position:'absolute', 
-            width: '320px',
+            width: '335px',
             backgroundColor: 'white',
             borderRadius: '200px',
         }}
