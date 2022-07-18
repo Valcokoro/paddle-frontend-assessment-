@@ -14,6 +14,7 @@ const LandingPage = () => {
   
     return (
         <section className='landing-page'>
+           <div className='inner-details'>
             <img src={Logo} alt='Logo' className='Logo'/>
             <p className='metricks'>METRICKS</p>
             <p className='coming-soon'>Something Awesome Is Coming Soon</p>
@@ -34,6 +35,7 @@ const LandingPage = () => {
               </div>
               </div>
                {window.innerWidth < 780 ? <MobileForm/> : <DesktopForm />}
+              </div>
           </section>
     )
 }
