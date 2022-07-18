@@ -1,0 +1,59 @@
+@media (min-width: 480px) {
+  .github-page {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .list {
+    width: 80%;
+    list-style-type: none;
+  }
+  h3 {
+    margin-left: 50px;
+  }
+  .list1 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .repo-desc {
+    margin-left: 130px;
+    margin-top: -635px;
+  }
+  .list2 {
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+  .list3 {
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+  .list4 {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 170px;
+  }
+  .list5 {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 250px;
+  }
+  .avatar {
+    position: absolute;
+    width: 30px;
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 780px) {
+  .github-page {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .list {
+    list-style-type: none;
+  }
+  .repo-name {
+    margin-left: 30px;
+  }
+}
+/*# sourceMappingURL=GitHub.css.map */

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import ContactPage from './components/ContactPage';
+import GitHub from './components/GitHub';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
        <Route path='/' exact component={LandingPage}/>
        <Route path='/comingsoon' exact component={LandingPage}/>
        <Route path='/contact' exact component={ContactPage}/>
+       <Route path='/github' exact component={GitHub}/>
        </Switch>
       </BrowserRouter>
     </div>
